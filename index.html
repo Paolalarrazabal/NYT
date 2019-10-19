@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>"NYT API"</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<style>
+</style>
+
+<body>
+    <div class="container">
+        ​
+        <!-- Title -->
+        <div class="jumbotron" style="background-color: #20315A ; color: white;">
+            <h1 class="text-center"><strong><i class="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
+        </div>
+        ​
+        ​<div id="search-div">
+            <h2>Search Parameters</h2>
+            <ul style="list-style-type:none;">
+                <li>
+                    <p>Search Term:</p>
+                </li>
+                <li>
+                    <input id="search-term">
+                </li>
+                <li>
+                    <p>Number of Records to Retrieve</p>
+                </li>
+                <li>
+                    <input type="text" id="number-records">
+                </li>
+                <li>
+                    <p>Start Year (Optional):</p>
+                </li>
+                <li>
+                    <input type="text" id="start-year">
+                </li>
+                <li>
+                    <p>End Year (Optional):</p>
+                </li>
+                <li>
+                    <input type="text" id="end-year">
+                </li>
+            </ul>
+            
+        </div>
+        <div id="display-div">
+            <h1>
+                Top Articles
+            </h1>
+        </div>
+        ​
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-sm-12">
+                ​
+
+                <hr>
+                <h5 class="text-center"><small>Made by group 3 <i class="fa fa-heart"></i></small></h5>
+                ​
+            </div>
+        </div>
+        ​
+    </div>
+    ​
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="nyt.js"></script>
+</body>
+
+</html>
